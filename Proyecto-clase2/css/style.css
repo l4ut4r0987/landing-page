@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    display: flex;
+
+}
+
+.logo img {
+    height: 70px;
+
+}
+/* ----RESETEO---- */
+
+
+
+header{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    
+    
+
+}
+
+header a:hover{
+    color: blueviolet;
+}
+
+header nav ul {
+    display: flex;
+    gap: 40px;
+    font-weight: 600
+
+
+    
+    
+}
+nav a:hover{
+    color: blueviolet;
+}
+
+/* ----HEADER---- */
+
+/* ========INDEX========= */
